@@ -1,0 +1,52 @@
+.App {
+  margin-left: 70px;
+  margin-right: 200px;
+  
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fmodern-office-space-with-desktops-with-modern-computers-created-with-generative-ai-technology_185193-110089.jpg%3Fsize%3D626%26ext%3Djpg%26ga%3DGA1.1.1448711260.1706832000%26semt%3Dais&tbnid=ylFghbzI19PAzM&vet=12ahUKEwjS46bYv4yEAxVQb2wGHQUpBGUQMygMegUIARCKAQ..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fcompany-office&docid=5tKWzDiPDP9FbM&w=626&h=353&q=it%20office%20pics&ved=2ahUKEwjS46bYv4yEAxVQb2wGHQUpBGUQMygMegUIARCKAQ");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.hero{
+  align-items: center !important;
+  height: 30px;
+  width: 300px;
+  font-weight: bold;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
